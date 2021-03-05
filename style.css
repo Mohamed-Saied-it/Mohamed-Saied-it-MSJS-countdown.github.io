@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Open+Sans:wght@300;400;600&family=RocknRoll+One&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./white.jpg");
+    background-size: cover;
+    background-position: center center;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: sans-serif, 'Akaya Telivigala';
+    margin: 0;
+    align-items: center;
+    
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight:normal;
+    margin-top: 5rem;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-text {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+    font-weight: bold;
+}
+
+.countdown-l {
+    text-align: center;
+}
+
+.countdown-l span{
+    font-size: 1.5rem;
+}
