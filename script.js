@@ -2,9 +2,9 @@ var daysl = document.getElementById('days');
 var hoursl = document.getElementById('hours');
 var minsl = document.getElementById('mins');
 var secondsl = document.getElementById('seconds');
-var
 
-const newYears = "1 Jan 2022";
+
+var newYears = "1 Jan 2022";
 
 function countdown() {
     var newYearsDate = new Date(newYears);
