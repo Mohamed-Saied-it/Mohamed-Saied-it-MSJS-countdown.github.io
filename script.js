@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 var daysl = document.getElementById('days');    
 var hoursl = document.getElementById('hours');
 var minsl = document.getElementById('mins');
