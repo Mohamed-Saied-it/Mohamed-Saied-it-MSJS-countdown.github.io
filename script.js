@@ -6,7 +6,7 @@ var minsl = document.getElementById('mins');
 var secondsl = document.getElementById('seconds');
 
 
-var newYears = "1 Jan 2022";
+var newYears = "1 Dec 2022";
 
 function countdown() {
     var newYearsDate = new Date(newYears);
