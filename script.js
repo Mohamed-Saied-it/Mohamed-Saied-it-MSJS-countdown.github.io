@@ -1,4 +1,4 @@
-/*jshint esversion: 6 */
+/*jshint esversion: 6 */ 
 
 var daysl = document.getElementById('days');    
 var hoursl = document.getElementById('hours');
@@ -12,7 +12,7 @@ function countdown() {
     var codeYearsDate = new Date(codeYears);
     var currentDate = new Date();  
 
-    var totalSeconds = (codeDate - currentDate) / 1000;
+    var totalSeconds = (codeYearsDate - currentDate) / 1000;
     var days = Math.floor(totalSeconds / 3600 / 24 ); 
     var hours = Math.floor(totalSeconds / 3600) % 24 ;
     var mins = Math.floor(totalSeconds / 60) % 60;
