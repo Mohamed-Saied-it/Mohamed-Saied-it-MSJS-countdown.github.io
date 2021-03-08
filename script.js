@@ -6,13 +6,13 @@ var minsl = document.getElementById('mins');
 var secondsl = document.getElementById('seconds');
 
 
-var newYears = "1 Dec 2022";
+var codeYears = "1 Dec 2021";
 
 function countdown() {
-    var newYearsDate = new Date(newYears);
+    var codeYearsDate = new Date(codeYears);
     var currentDate = new Date();  
 
-    var totalSeconds = (newYearsDate - currentDate) / 1000;
+    var totalSeconds = (codeDate - currentDate) / 1000;
     var days = Math.floor(totalSeconds / 3600 / 24 ); 
     var hours = Math.floor(totalSeconds / 3600) % 24 ;
     var mins = Math.floor(totalSeconds / 60) % 60;
